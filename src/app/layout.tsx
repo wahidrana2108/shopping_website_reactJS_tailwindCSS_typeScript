@@ -9,6 +9,8 @@ import Hero from "@/components/Hero";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import NewProducts from "@/components/NewProducts";
+import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +30,8 @@ export default function RootLayout({
         <Hero />
         <NewProducts />
         {children}
+        <Testimonials />
+        <Footer />
 
         </body>
     </html>
